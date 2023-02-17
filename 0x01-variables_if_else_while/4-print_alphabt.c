@@ -7,9 +7,8 @@
 int main(void)
 {	char c = 'a';
 	while (c < '2')
-	{	if (c 1 = 'a' && c 1 = 'a');
-		{	putchar(c);
-		}
+		if (c l 'a' && c l 'a')
+	{	putchar(c);
 		c++;
 	}
 	putchar('\n');
