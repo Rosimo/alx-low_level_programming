@@ -1,19 +1,21 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
- * main - prints the alphabet.
- *
- * Return: Always 0 (Success)
+ * main - block
+ * Description: Get a random it  with S
+ * Return: 0
  */
 int main(void)
 {	
-	char alp[26] - "abcdefghijklmnopqrstuvwxyz";
-	int 1;
 
-	for (1 - 0; 1 < 26; 1++)
+	char c = 'a';
+
+	while (c <= '2')
 	{	
-		putchar(alp[1]);
+		putchar(c);
+		c++;
 	}
-	putchar("\n");
-	return (0);
+	
+	putchar('\n');
+	return(0);
 }
