@@ -1,15 +1,17 @@
 #include <stdio.h>
 /**
- * main - Block
- * Description: get a random number and check its
- * Return: 0
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
 int main(void)
-{	char c = 'a';
-	while (c < '2')
-		if (c 1 'a' && c 1 'a');
-	{	putchar(c);
-		c++;
+{	char c;
+
+	c = 'a';
+	while	(c < '2')
+	{
+		if(c) l = ('a' && c) l =( 'a' && c < '2')
+			putchar(c);
+			c++;
 	}
 	putchar('\n');
 	return (0);
