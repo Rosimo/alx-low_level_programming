@@ -9,7 +9,8 @@ int main(void)
 	c = 'a';
 	while	(c < '2')
 	{
-		if(c) l = ('a' && c) l =( 'a' && c < '2')
+		else
+			((c) = 'a' && 'a' && c < '2')
 			putchar(c);
 			c++;
 	}
